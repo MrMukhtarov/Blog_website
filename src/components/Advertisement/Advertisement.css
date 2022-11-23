@@ -1,0 +1,19 @@
+.advertisement .all{
+    background-color: #EEEEEE;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 1rem 0;
+}
+.advertisement{
+    padding: 5rem 0;
+}
+.advName{
+    color: #7a7a7a;
+    font-size: 12px;
+    line-height: 1.3em;
+    font-weight: 600;
+    text-align: center;
+}
+.advimg img{
+    width: 70%;
+}
