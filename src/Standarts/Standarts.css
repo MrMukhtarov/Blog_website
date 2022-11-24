@@ -1,0 +1,23 @@
+.standartContainer {
+    padding: 0 1.5rem;
+}
+
+.standartTitle {
+    margin-bottom: 10px;
+    font-family: Eczar, sans-serif;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 800;
+}
+
+.standartDesc {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.standartDesc a {
+    color: #444;
+}
+.standarts{
+    margin-top: 50px;
+}

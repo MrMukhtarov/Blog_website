@@ -1,0 +1,60 @@
+.desContainer{
+    padding: 0 1.5rem;
+}
+.desName{
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.desBox img{
+    height: 210px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: .7s;
+}
+.desBox img:hover{
+    filter: grayscale(100%);
+    transition: .7s;
+}
+.desTitle{
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: Eczar, sans-serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.3em;
+    font-weight: 500;
+    text-decoration: none;
+}
+.desTitle:hover{
+    color: #ff7d27;
+}
+.desDesc{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.desyear{
+    color: #7a7a7a;
+    font-size: 14px;
+}
+.desdot{
+    color: #7a7a7a;
+    font-size: 14px;
+}
+.desperson{
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: #7a7a7a;
+    font-size: 14px;
+    text-decoration: none;
+}
+.desperson:hover{
+    color: #000;
+}

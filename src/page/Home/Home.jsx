@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Advertisement from '../../components/Advertisement/Advertisement'
 import Categories from '../../components/Categories/Categories'
 import Grid from '../../components/Grid/Grid'
@@ -9,8 +9,11 @@ import Trending from '../../components/Trending/Trending'
 import './Home.css'
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'The Daily Work';
+  });
   return (
-    <div>
+    <div className='home'>
         <Trending/>
         <Subscribe/>
         <Grid/>

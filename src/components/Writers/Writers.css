@@ -1,0 +1,32 @@
+.writerContainer{
+    padding: 0 1.5rem;
+}
+.writers .all{
+    background-color: #f7f7f7;
+    padding: 2rem 1rem;
+}
+.writersTitle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Eczar, sans-serif;
+    font-size: 52px;
+    line-height: 55px;
+    font-weight: 700;
+}
+.writerPos{
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.WriterName{
+    color: #ff7d27;
+    cursor: pointer;
+}
+.writerBox img{
+    width: 85%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}

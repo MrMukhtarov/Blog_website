@@ -1,0 +1,60 @@
+.lifeContainer{
+    padding: 0 1.5rem;
+}
+.lifeName{
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.lifeBox img{
+    height: 210px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: .7s;
+}
+.lifeBox img:hover{
+    filter: grayscale(100%);
+    transition: .7s;
+}
+.lifeTitle{
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: Eczar, sans-serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.3em;
+    font-weight: 500;
+    text-decoration: none;
+}
+.lifeTitle:hover{
+    color: #ff7d27;
+}
+.lifeDesc{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.lifeyear{
+    color: #7a7a7a;
+    font-size: 14px;
+}
+.lifedot{
+    color: #7a7a7a;
+    font-size: 14px;
+}
+.lifeperson{
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: #7a7a7a;
+    font-size: 14px;
+    text-decoration: none;
+}
+.lifeperson:hover{
+    color: #000;
+}

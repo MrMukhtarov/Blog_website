@@ -1,0 +1,16 @@
+.aboutTexttitle{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: Eczar, sans-serif;
+    font-size: 60px;
+    line-height: 62px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.aboutTextcontainer{
+    padding: 0 1.5rem;
+}
+.abouttextdesc{
+    font-size: 18px;
+    margin-bottom: 25px;
+}

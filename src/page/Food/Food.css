@@ -1,0 +1,55 @@
+.foodContainer{
+    padding: 0 1.5rem;
+}
+.foodName{
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.foodBox img{
+    height: 210px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: .7s;
+}
+.foodBox img:hover{
+    filter: grayscale(100%);
+    transition: .7s;
+}
+.foodTitle{
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: Eczar, sans-serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 1.3em;
+    font-weight: 500;
+    text-decoration: none;
+}
+.foodTitle:hover{
+    color: #ff7d27;
+}
+.foodDesc{
+    margin-top: 10px;
+}
+.foodyear{
+    color: #7a7a7a;
+    font-size: 14px;
+}
+.fooddot{
+    color: #7a7a7a;
+    font-size: 14px;
+}
+.foodperson{
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: #7a7a7a;
+    font-size: 14px;
+    text-decoration: none;
+}
+.foodperson:hover{
+    color: #000;
+}

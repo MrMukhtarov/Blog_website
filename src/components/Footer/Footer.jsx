@@ -1,10 +1,10 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footers">
       <div className="footerContainer">
         <div className="row align-items-center">
           <div className="ftLeft col-lg-4">
@@ -18,8 +18,8 @@ const Footer = () => {
             </NavLink>
             <div className="ftleftbottom">
               <NavLink to="/">Home</NavLink>
-              <NavLink to="/">About</NavLink>
-              <NavLink to="/">Contact</NavLink>
+              <NavLink to="/about">About</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
               <NavLink to="/">Image Licensing</NavLink>
             </div>
           </div>

@@ -1,0 +1,49 @@
+.aboutSubContainer{
+    padding: 0 2rem;
+}
+.allItemSub{
+    padding: 3rem 1rem;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subLeft h3{
+    margin-top: 0px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    font-family: Eczar, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+.xett{
+    width: 1px;
+    height: 200px;
+    background-color: rgba(7, 7, 7, 0.433);
+}
+.subrighttext{
+    margin-bottom: 10px;
+    font-family: Eczar, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.aboutSub input{
+    background-color: #cfcfcf;
+    padding: 8px 20px;
+    margin-right: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+.aboutSub button{
+    background-color: #ff7d27;
+    padding: 9px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .5s;
+    border: none;
+}
+.aboutSub button:hover{
+    background-color: #CC641F;
+}
